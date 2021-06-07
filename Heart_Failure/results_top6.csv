@@ -1,7 +1,0 @@
-,model,best_score,best_params
-0,KNN,0.7459770114942529,"{'weights': 'uniform', 'n_neighbors': 11, 'algorithm': 'ball_tree'}"
-1,random_forest,0.7627586206896552,"{'n_estimators': 100, 'criterion': 'entropy'}"
-2,naive_bayes,0.7120689655172413,{}
-3,logistic_regression,0.7526436781609196,"{'solver': 'saga', 'C': 5}"
-4,SVC,0.7526436781609196,"{'multi_class': 'ovr', 'loss': 'squared_hinge', 'C': 1}"
-5,MLP,0.7591954022988506,"{'solver': 'adam', 'max_iter': 1000, 'learning_rate': 'constant', 'hidden_layer_sizes': 500, 'activation': 'logistic'}"
