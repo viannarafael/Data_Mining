@@ -186,6 +186,6 @@ df = pd.DataFrame(results, columns=[
                   'Accuracy', 'Recall', 'Precision', 'F measure', 'Run Time'])
 df['Classifier'] = ['K-NN', 'Randon Forest',
                     'Naive Bayes', 'Logistic', 'SVM', 'MLP']
-
+print(df)
 # Save Results
-df.to_csv("compare_classifier.csv")
+df.to_csv("classification_results.csv")
